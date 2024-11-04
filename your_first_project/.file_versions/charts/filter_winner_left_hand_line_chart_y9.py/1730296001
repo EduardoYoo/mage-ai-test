@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+plt.subplot(1, 2, 2)
+sns.scatterplot(data=df_left, x="w_ace", y="winner_ht", color="green")
+plt.title("Left-Handed Players")
+
+plt.tight_layout()
+plt.show()

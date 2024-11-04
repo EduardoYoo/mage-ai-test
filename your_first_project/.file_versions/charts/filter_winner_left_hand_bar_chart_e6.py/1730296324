@@ -1,0 +1,4 @@
+columns = df_1.columns
+x = ['w_ace', 'winner_ht']
+y_right = [df_right[col].mean() for col in x]
+y_left = [df_left[col].mean() for col in x]
